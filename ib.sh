@@ -18,12 +18,12 @@ case $opt in
                   ;;
                 "Set DGX1 IP for IPoIB")
                   echo "setting IP(oIB) configuration for DGX1 practice 7"
-                  ./p7-dgx1.sh
+                  ./.ib.sh
                   break
                   ;;
                 "Set DGX2 IP for IPoIB")
                   echo "setting IP(oIB) configuration for DGX2 practice 7"
-                  ./p7-dgx2.sh
+                  ./.ib.sh
                   break
                   ;;
                 "Verify IP")
